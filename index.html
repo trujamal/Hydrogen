@@ -8,45 +8,111 @@
     <meta name="description" content="A maximized outlook on life.">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/Veve-Navbar-Component.css">
 </head>
 
-<body style="background-color: #DFE0E5;">
-    <div>
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color: #DFE0E5;">
-            <div class="container"><a class="navbar-brand" href="#" style="font-family: Lato, sans-serif;font-size: 18px;font-weight: 100;">hydrogen | &nbsp;<strong>App</strong></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div
-                    class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family: Lato, sans-serif;font-weight: 600;">API</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family: Lato, sans-serif;font-weight: 600;">Blog</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family: Lato, sans-serif;font-weight: 600;">FAQ</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family: Lato, sans-serif;font-weight: 600;">Users</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: #5070a9;font-family: Lato, sans-serif;font-weight: 600;">Contact</a></li>
+<body>        
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/assets/js/fakeLoader.min.js"></script>
+<script>
+            $(document).ready(function(){
+                $(".fakeloader").fakeLoader({
+                    timeToHide:1200,
+                    bgColor:"#e67e22",
+                    spinner:"spinner5"
+                });
+            });
+</script>        <div class="fakeloader"></div>
+
+ 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/fakeLoader.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".fakeloader").fakeLoader({
+                    timeToHide:600,
+                    bgColor:"#E9CE70",
+                    spinner:"spinner6"
+                });
+            });
+        </script><script>
+    function openNav() {        
+        document.getElementById("anythingElse").style.height = "80vh";
+    }
+
+    function closeNav() {
+      document.getElementById("anythingElse").style.height = "0%";
+        
+    }
+    
+    $(document).ready(function(){
+        $("#nav_menubar").click(function() {
+
+            openNav();
+        });
+    });
+    $(document).ready(function(){
+        $("#nav_menubar1").click(function() {
+            openNav();
+        });
+    });
+</script> 
+    <nav class="navbar navbar-light navbar-expand-md" style="z-index: 99;">
+        <div class="container-fluid"><a class="navbar-brand" id="navBarBrand" href="index.html" style="font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;;font-weight: 600;font-size: 27px;color: black;">hydrogen.<span style="color: rgba(136,135,129,0.81);">pw</span></a>
+            <button
+                data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" id="collapseInfo" style="border-color: transparent;"><span class="navbar-toggler-icon" id="nav_menubar1" style="background-image: url(//img.icons8.com/ios-glyphs/60/000000/menu.png);"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto" style="padding-right: 5vw;">
+                        <li class="nav-item" role="presentation" style="margin-right: 1vw;"><a class="nav-link" id="nav_contact" href="contact.html">Contact</a></li>
+                        <li class="nav-item" role="presentation" style="margin-right: 1vw;"><a class="nav-link" id="nav_menubar"><i class="fa fa-align-left"></i></a></li>
                     </ul>
-            </div>
-    </div>
+                </div>
+        </div>
     </nav>
-    </div>
-    <div style="padding-top: 25vh;height: 100vh;">
+    <div>
         <div class="container">
             <div class="row">
-                <div class="col-md-12" style="display: inline-block;">
-                    <div style="display: inline-block;margin-left: 15px;margin-right: 15px;height: 1px;width: 10%;background-color: #e54c7c;"></div>
-                </div>
-            </div>
-            <div class="row" style="padding-top: 50px;">
-                <div class="col-md-12">
-                    <h1 class="text-uppercase" style="font-family: Lato, sans-serif;font-size: 3.0em;font-weight: 400;">Introduction</h1>
-                    <p class="text-uppercase" style="padding-top: 20px;font-family: Lato, sans-serif;font-weight: 300;">Brand Guidelines</p>
-                    <p style="margin-top: 5%;width: 40%;font-family: Lato, sans-serif;font-weight: 100;letter-spacing: .025em;">This site is designed around the simple concept of introducing everyone to the wonders of blockchain technology, developed by <strong>Veve</strong> engineers. &nbsp;With this being said lets dive in shall we?</p>
+                <div class="col" style="margin-bottom: 10vw;margin-top: 10vw;padding-left: 70px;padding-right: 70px;max-width: 1430px;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;">
+                    <div style="font-family: Merriweather, serif;font-weight: 300;padding: 30px 0px;">
+                        <h1 style="font-weight: 300;font-size: 52px;font-family: Merriweather, serif;">Our story</h1>
+                        <h1 style="color: #9ea0a6;font-weight: 300;font-size: 52px;font-family: Merriweather, serif;">Eons ago<br></h1>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div data-bs-parallax-bg="true" style="height: 500px;background-position: center;background-size: cover;background-image: url(&quot;//images.unsplash.com/photo-1543395718-80a1c42b2302?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=5b8f0411ad830ea0e67f57906c3dc41d&amp;auto=format&amp;fit=crop&amp;w=1934&amp;q=80&quot;);"></div>
+    <div style="max-width: 100%;width: 100%;max-height: 60vh;object-fit: cover;height: 60vh;overflow: hidden;z-index: 1;background-color: #000000;"><video data-aos="zoom-in" data-aos-duration="1500" autoplay="" loop="" muted="" height="100%" width="100%" style="object-fit: cover;"><source src="//cl.ly/8eabf0b646d0/Pexels%20Videos%201943483.mp4" type="video/mp4"></video></div>
+    <div>
+        <div class="container" style="margin-bottom: 90px;margin-top: 135px;">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h1 style="font-weight: 100;letter-spacing: -.035em;line-height: 1.11538;color: #1f1f1f;margin-bottom: 1.25em;font-size: 22px;font-family: Merriweather, serif;width: 55%;">Introduction</h1>
+                        <h1 style="font-weight: 100;letter-spacing: -.035em;line-height: 1.11538;color: #9ea0a6;margin-bottom: 1.25em;font-size: 22px;font-family: Merriweather, serif;width: 55%;">Brand Guidelines<br></h1>
+                    </div>
+                </div>
+                <div class="col-md-6" style="display: flex;flex-direction: column;justify-content: center;">
+                    <p style="font-size: 19px;color: #000;letter-spacing: .025em;line-height: 1.55556;font-weight: 300;margin-bottom: 1.7em;font-family: Lato, sans-serif;">This site is designed around the simple concept of introducing everyone to the wonders of blockchain technology, developed by&nbsp;<strong>Veve</strong>&nbsp;engineers. &nbsp;With this being said lets dive in shall we?&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"><img src="//images.unsplash.com/photo-1553531768-a0f91bcfbd3e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80" width="100%"></div>
+            </div>
+        </div>
+    </div>
     <div style="margin-top: 135px;margin-bottom: 135px;">
         <div class="container">
             <div class="row">
@@ -63,26 +129,107 @@
                         <p style="color: #000;letter-spacing: .025em;line-height: 1.55556;font-weight: 300;margin-bottom: 1.7em;font-family: Lato, sans-serif;">Our developers are able to independently develop and test a mobile applications with a complex, fancy designs, and prepare builds for uploading to the App Store and Play Market. Any new exciting news that we have for you will be
                             coming soon. So keep updated by following our newsletter!</p>
                     </div>
-                    <div><a href="//veveusa.com/comingSoon.html" style="font-family: inherit;font-style: inherit;font-weight: inherit;border: 0;background: 0 0;-webkit-appearance: none;-moz-appearance: none;appearance: none;position: relative;padding: 1em;margin: -1em;overflow: visible;font-size: 14px;line-height: 22px;vertical-align: middle;text-align: center;text-decoration: none;color: #000;cursor: pointer;"><i class="icon-arrow-right" style="padding-right: 5px;"></i>&nbsp;Folow our newsletter</a></div>
+                    <div><a style="font-family: inherit;font-style: inherit;font-weight: inherit;border: 0;background: 0 0;-webkit-appearance: none;-moz-appearance: none;appearance: none;position: relative;padding: 1em;margin: -1em;overflow: visible;font-size: 14px;line-height: 22px;vertical-align: middle;text-align: center;text-decoration: none;color: #000;cursor: pointer;"
+                            href="//veveusa.com/comingSoon.html"><i class="icon-arrow-right" style="padding-right: 5px;"></i>&nbsp;Folow our newsletter</a></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-basic" style="background-color: #DFE0E5;">
-        <footer>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#" style="font-family: Lato, sans-serif;font-weight: 600;">API</a></li>
-                <li class="list-inline-item"><a href="#" style="font-family: Lato, sans-serif;font-weight: 600;">Blog</a></li>
-                <li class="list-inline-item"><a href="#" style="font-family: Lato, sans-serif;font-weight: 600;">FAQ</a></li>
-                <li class="list-inline-item"><a href="#" style="font-family: Lato, sans-serif;font-weight: 600;">Users</a></li>
-                <li class="list-inline-item" style="color: #5070a9;font-family: Lato, sans-serif;font-weight: 600;"><a href="#">Contact</a></li>
-            </ul>
-            <p class="copyright" style="font-family: Karla, sans-serif;">Hydrogen by Veve © 2018</p>
-        </footer>
+    <div id="gotMilk" style="padding-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <hr style="display: block;margin-top: 0.5em;margin-bottom: 0.5em;margin-left: auto;width: 100%;margin-right: auto;border-style: inset;border-width: 1px;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xl-3" style="background-color: #FEFEFD;height: auto;display: inline-flex;padding-bottom: 2vh;flex-direction: column;/*align-items: center;*/justify-content: center;">
+                    <div>
+                        <p style="margin-bottom: 0px;font-family: Merriweather, serif;color: #3a3a3a;font-weight: 300;font-size: 32px;"><br>Got a project?<br></p>
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 0px;font-family: Merriweather, serif;color: rgba(0,0,0,0.34);font-weight: 100;font-size: 27px;padding-bottom: 2vh;"><br>Let’s talk<br></p>
+                    </div><a data-aos="fade-up" data-aos-delay="550" style="color: #1e1e1e;font-family: Lato, sans-serif;font-size: 15px;" href="contact.html"><strong>&gt; Tell us everything</strong><br></a></div>
+                <div class="col-md-12 col-xl-2 offset-xl-2"
+                    style="background-color: #FEFEFD;height: auto;display: inline-flex;flex-direction: column;/*align-items: center;*/justify-content: center;">
+                    <ul class="list-unstyled" style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);">
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="//veveusa.com/company.html">Company</a></li>
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="//veveusa.com/about.html">About</a></li>
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="//veveusa.com/contact.html">Contact</a></li>
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="//veveusa.com/careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 col-xl-2 offset-xl-0" style="background-color: #FEFEFD;height: auto;display: inline-flex;flex-direction: column;/*align-items: center;*/justify-content: center;">
+                    <ul class="list-unstyled" style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);">
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="//veveusa.com/team.html">Team</a></li>
+                        <li style="margin-bottom: 10px;"></li>
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="//veveusa.com/privacy.html">Privacy</a></li>
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="//veveusa.com/comingSoon.html">Future</a></li>
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="#">&nbsp;</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 col-xl-2 offset-xl-0" style="background-color: #FEFEFD;height: auto;display: inline-flex;flex-direction: column;/*align-items: center;*/justify-content: center;">
+                    <ul class="list-unstyled" style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);">
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="//veveusa.com/austin.html">Austin</a></li>
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="//veveusa.com/sanantonio.html">San Antonio</a></li>
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="//veveusa.com/houston.html">Houston</a></li>
+                        <li style="margin-bottom: 10px;"><a style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);" href="#">&nbsp;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer id="footerClass" class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <hr style="display: block;margin-top: 0.5em;margin-bottom: 0.5em;margin-left: auto;width: 100%;margin-right: auto;border-style: inset;border-width: 1px;">
+                </div>
+            </div>
+            <div class="footer-legal" style="padding-top: 2vh;">
+                <div class="float-md-right region">
+                    <div class="d-inline-block legal-links" style="font-family: Lato, sans-serif;font-size: 14px;color: rgba(124,128,171,0.74);">
+                        <div class="d-inline-block item">
+                            <h5 style="font-family: Lato, sans-serif;"></h5>
+                        </div>
+                    </div><a href="#" style="color: black;text-decoration: none;">Made With Love &nbsp;<i class="fab fa-cloudversify"></i></a></div>
+                <div class="d-inline-block copyright">
+                    <p class="d-inline-block" style="font-weight: 600;font-size: 27px;color: black;/*margin-left: 100px;*/">hydrogen.<span style="color: rgba(136,135,129,0.81);font-size: 27px;">pw</span><br></p>
+                </div>
+            </div>
+        </div>
+    </footer><script>
+    $(document).ready(function() {
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          // Store hash
+          var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+      $(function() {
+        $('img').on('click', function() {
+          $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+          $('#enlargeImageModal').modal('show');
+        });
+      });
+    });
+</script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
 </body>
 
 </html>
